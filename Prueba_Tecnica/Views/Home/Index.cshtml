@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="row col-12 m-0 p-0 ">
+    <div class="text-center mb-5">
+        <h1 class="display-4" id="Thanks">¡Bienvenido!</h1>
+        <h5 id="ContentText">Esta Aplicación Se dará una encuesta en la que usted podrá ser participe</h5>
+        <h6 id="Error" class="text-danger">Solo números</h6>
+    </div>
+    <div class="text-center my-3">
+        <h4 id="FirstQuestion"></h4>
+    </div>
+    <div class="row col-12 p-0 m-0 mt-3 justify-content-center">
+        <button type="button" class="btn btn-danger col-5 col-sm-3 col-md-2 me-2" id="Decline">No Acepto</button>
+        <button type="button" class="btn btn-primary col-5 col-sm-3 col-md-2" id="Start" value="2">Acepto</button>
+
+    </div>
+    <div >
+        <select class="form-select" aria-label="Default select example" id="ListAnswers">
+        </select>
+    </div>
+    <div id="Answers">
+    </div>
+    <div class="row col-12 p-0 m-0 mt-3 justify-content-center">
+        <button type="button" class="btn btn-primary col-5 col-sm-3 col-md-2 d-none" id="Next">Siguiente</button>
+        <button type="button" class="btn btn-danger col-5 col-sm-3 col-md-2 me-2 d-none" id="BoolB" value=""></button>
+        <button type="button" class="btn btn-primary col-5 col-sm-3 col-md-2 d-none" id="BoolA" value=""></button>
+
+    </div>
+</div>
+
